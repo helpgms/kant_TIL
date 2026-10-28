@@ -62,7 +62,7 @@ git clone 주소 하면 된다
 
 ---
 
-### 4. reset 하는 방법
+### 5. reset 하는 방법
 
 1. **soft : git reset --soft 해시값(돌아가고 싶은 곳)**
 
@@ -108,7 +108,7 @@ head 옵션 결과
 
 정리하자면, 워킹디렉터리까지 깔끔하게 없어진다.
 
-### 5. branch 활용
+### 6. branch 활용
 
 git branch 브랜치명 하면 생긴다.
 
@@ -126,12 +126,19 @@ git branch 브랜치명 하면 생긴다.
 
 하면 한번에 그 브랜치까지 간다.
 
-### 6. merge 하는 방법
+### 7. merge 하는 방법
 
 다른 곳에서 작업한 브랜츠가 main으로도 왔으면 할때, merge 하면 된다.
+이때, 이동하기 전에 add, commit 작업을 맞춘 뒤에 이동해야한다.
 
 요약하자면, 수정된 브랜치를 합치기 원하면, 수정할 브랜츠로 가서 머지한다.(fast forwarding)
 
 사용법 : git merge 브랜츠명
 
 ![git merege 사용법](gitMerge1.png)
+
+---
+
+복습 branch 만들기, merge 하기
+
+---
